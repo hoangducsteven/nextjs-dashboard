@@ -1,33 +1,39 @@
-.title {
-    text-align: left;
-    font-size: 28px; /* Adjust as needed */
+.container-wrapper {
+    display: flex;
+    align-items: flex-start; /* Align the title with the top of the first box */
+  }
+  
+  .title {
+    font-size: 28px;
     font-weight: bold;
-    margin: 20px 0 20px -10px; /* Adjust left margin to align with the boxes */
-}
-
-.container {
+    margin: 0; /* Remove any default margins */
+    padding-right: 10px; /* Optional: Add some space between the title and the first box */
+  }
+  
+  .container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap; /* Ensure the boxes do not wrap onto a new line */
+    flex-wrap: nowrap;
     gap: 10px; /* Space between boxes */
+    margin-left: -10px; /* Align container boxes with the title */
   }
   
   .box {
-    flex: 1 1 18%; /* Reduce the width to approximately 18% to fit 5 boxes */
-    max-width: 18%; /* Ensure the boxes do not exceed this width */
+    flex: 1 1 18%; /* Keep the width at 18% to fit 5 boxes on one line */
+    max-width: 18%;
     text-align: center;
-    padding: 8px; /* Adjust padding if needed */
-    margin: 8px; /* Adjust margin if needed */
+    padding: 8px;
+    margin: 8px;
     border: 2px solid #ccc;
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-  }
+  }  
   
   
 

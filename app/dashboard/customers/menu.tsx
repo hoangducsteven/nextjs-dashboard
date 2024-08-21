@@ -20,6 +20,10 @@ const MenuScreen = () => {
         <Image source={require('./path_to_family_meal_image.png')} style={styles.icon} />
         <Text style={styles.text}>FAMILY MEALS</Text>
       </TouchableOpacity>
+      <TouchableOpacity style={styles.menuItem}>
+        <Image source={require('./path_to_fried_chicken_image.png')} style={styles.icon} />
+        <Text style={styles.text}>FRIED CHICKEN</Text>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -41,7 +45,7 @@ const styles = StyleSheet.create({
   },
   text: {
     marginTop: 10,
-    fontSize: 16,
+    fontSize: 40,
     fontWeight: 'bold'
   },
   icon: {

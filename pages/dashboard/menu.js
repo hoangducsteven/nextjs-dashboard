@@ -4,7 +4,7 @@ import styles from './Menu.module.css';
 
 const ImageGallery = () => {
   return (
-    <div>
+    <div className={styles.containerWrapper}>
       <div className={styles.title}>KFC MENU</div>
       <div className={styles.container}>
         {[
