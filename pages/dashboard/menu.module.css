@@ -1,0 +1,50 @@
+.title {
+    text-align: left;
+    font-size: 28px; /* Adjust as needed */
+    font-weight: bold;
+    margin: 20px 0 20px -10px; /* Adjust left margin to align with the boxes */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; /* Ensure the boxes do not wrap onto a new line */
+    gap: 10px; /* Space between boxes */
+  }
+  
+  .box {
+    flex: 1 1 18%; /* Reduce the width to approximately 18% to fit 5 boxes */
+    max-width: 18%; /* Ensure the boxes do not exceed this width */
+    text-align: center;
+    padding: 8px; /* Adjust padding if needed */
+    margin: 8px; /* Adjust margin if needed */
+    border: 2px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  
+
+.box .navBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f7f2f2; /* Off-white color */
+    color: #000;
+    text-align: center;
+    padding: 10px; /* Increase padding for double the height */
+    font-size: 24px; /* Double the font size */
+    font-weight: bold; /* Bold text for the navbar */
+}
+
+
+.box p {
+    font-weight: bold; /* Bold text for the labels inside boxes */
+}
