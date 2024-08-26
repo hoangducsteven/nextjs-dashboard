@@ -1,3 +1,29 @@
+.navBar {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navBar:hover {
+  text-decoration: underline;
+}
+
+.bottom-navBar {
+  background-color: #000;
+  color: #fff;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Adjustments to the content to avoid overlap with the navbar */
 .container-wrapper {
   display: flex;
   align-items: flex-start; /* Align the title with the top of the first box */
@@ -33,8 +59,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-}  
-
+}
 
 
 .box .navBar {
@@ -42,15 +67,14 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #f7f2f2; /* Off-white color */
+  background-color: #f7f2f2;
   color: #000;
   text-align: center;
-  padding: 10px; /* Increase padding for double the height */
-  font-size: 24px; /* Double the font size */
-  font-weight: bold; /* Bold text for the navbar */
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-
 .box p {
-  font-weight: bold; /* Bold text for the labels inside boxes */
+  font-weight: bold;
 }

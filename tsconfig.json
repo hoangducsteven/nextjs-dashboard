@@ -31,7 +31,7 @@
     "app/lib/placeholder-data.ts",
     "scripts/seed.js",
     "app/dashboard/customers/page.tsx"
-  ],
+, "pages/deals.js", "pages/combos.js", "pages/drinks/drinks.js", "pages/family-meals.js", "pages/featured.js", "pages/fried-chicken.js", "pages/nuggets.js", "pages/pot-pies-bowls.js", "pages/sandwiches.js", "pages/side-sweets-sauces.js", "pages/tenders.js"  ],
   "exclude": [
     "node_modules"
   ]
